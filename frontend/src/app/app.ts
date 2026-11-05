@@ -1,8 +1,9 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { LibroCrudComponent } from './components/libro-crud/libro-crud';
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, LibroCrudComponent],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
